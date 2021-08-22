@@ -1,0 +1,14 @@
+{
+  "eslint.workingDirectories": [
+    { "directory": "functions", "changeProcessCWD": true },
+    { "directory": "web", "changeProcessCWD": true }
+  ],
+  "cSpell.words": ["clsx"],
+  "prettier.useEditorConfig": false,
+  "prettier.configPath": ".prettierrc.js",
+  "editor.formatOnPaste": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
